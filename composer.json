@@ -1,0 +1,19 @@
+{
+    "name": "tellarion/payeer",
+    "description": "https://payeerru.docs.apiary.io/#introduction/api",
+    "type": "library",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Aleksandr Danilov",
+            "email": "im@tellarion.dev"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Tellarion\\Api\\": "src/"
+        }
+    }
+}
