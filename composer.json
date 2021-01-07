@@ -2,7 +2,7 @@
     "name": "tellarion/payeer",
     "description": "https://payeerru.docs.apiary.io/#introduction/api",
     "type": "library",
-    "license": "GNU",
+    "license": "MIT",
     "authors": [
         {
             "name": "Aleksandr Danilov",
