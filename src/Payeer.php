@@ -6,8 +6,6 @@ namespace Tellarion\Api;
 
 class Payeer {
 
-    const API_URL = "https://payeer.com/ajax/api/api.php";
-
     protected $account = null;
     protected $apiId = null;
     protected $apiPass = null;
@@ -31,7 +29,7 @@ class Payeer {
         }
 
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, API_URL);
+        curl_setopt($ch, CURLOPT_URL, "https://payeer.com/ajax/api/api.php");
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_params));
         curl_setopt($ch, CURLOPT_USERAGENT, "composer require tellarion/payeer V-Agent");
