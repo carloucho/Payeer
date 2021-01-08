@@ -34,8 +34,8 @@ class Payeer {
         curl_setopt($ch, CURLOPT_URL, API_URL);
         curl_setopt($ch, CURLOPT_POST, true);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($post_params));
-        curl_setopt($ch, CURLOPT_USERAGENT, "composer Tellarion/Payeer V-Agent");
-        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type:application/json"));
+        curl_setopt($ch, CURLOPT_USERAGENT, "composer require tellarion/payeer V-Agent");
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array("Content-Type:" => "application/json"));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $result = curl_exec($ch);
         curl_close($ch);
