@@ -1,6 +1,6 @@
 <?php
 
-// tellarion.dev github.com/tellarion
+// tellarion.dev github.com/tellarion vk.com/tellarion
 
 namespace Tellarion\Api;
 
